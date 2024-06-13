@@ -12,12 +12,14 @@ pip install -r requirements.txt
 
 3. Run migrations:
 python manage.py makemigrations
+
+4. Migrate the  migrations:
 python manage.py migrate
 
-4. create super user:
+5. create super user:
 python manage.py createsuperuser
 
-5. Run the server: 
+6. Run the server: 
 python manage.py runserver
 
 Endpoints
