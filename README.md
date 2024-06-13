@@ -18,18 +18,22 @@ python manage.py makemigrations
 
 python manage.py migrate
 
-5. create super user:< br / >
+5. create super user:
 
 python manage.py createsuperuser
 
-6. Run the server: < br / >
 
-python manage.py runserver< br / >
+6. Run the server: 
 
-Endpoints:< br / >
+python manage.py runserver
 
-/api/items/ - CRUD operations for inventory items.< br / >
-/api/suppliers/ - CRUD operations for suppliers.< br / >
+Endpoints
 
-5. Running Tests: To run tests, use:< br / >
+/api/items/ - CRUD operations for inventory items.
+
+/api/suppliers/ - CRUD operations for suppliers.
+
+
+5. Running Tests: To run tests, use:
+
 python manage.py test
