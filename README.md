@@ -3,27 +3,26 @@
 ## Setup
 
 1. Clone the repository.
+
+git clone https://github.com/EkeHanson/Online-Store-Inventory-and-Supplier.git
+
 2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
 
+pip install -r requirements.txt
 
-
-Run migrations:
-bash
-Copy code
+3. Run migrations:
 python manage.py makemigrations
 python manage.py migrate
 
-
+4. create super user:
 python manage.py createsuperuser
 
-Run the server: 
+5. Run the server: 
 python manage.py runserver
 
 Endpoints
 /api/items/ - CRUD operations for inventory items.
 /api/suppliers/ - CRUD operations for suppliers.
 
-Running Tests: To run tests, use:
+5. Running Tests: To run tests, use:
 python manage.py test
